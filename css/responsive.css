@@ -1,0 +1,852 @@
+
+
+@media (max-width: 1799px) {
+    .cookie-popup__content h4 {
+        font-size: 21px;
+    }
+    .cookie-popup::after {
+        --in-space: 7px;
+        border-width: 1px;
+    }
+    .cookie-popup__buttons {
+        gap: 35px;
+        margin-top: 30px;
+    }
+    .cookie-popup {
+        padding: 40px 0;
+    }
+    .cookie-popup__buttons .default-button {
+        min-width: 200px;
+    }
+
+    .header__logo {
+        width: 95px;
+    }
+    .language-option .icon {
+        width: 18px;
+    }
+    .language-option .icon svg {
+        height: auto;
+        max-width: 100%;
+    }
+    .default-button .icon {
+        width: 23px;
+    }
+    .language-option > a {
+        font-size: 18px;
+        gap: 11px;
+        min-height: 50px;
+        padding: 5px 25px;
+    }
+    .header__right {
+        gap: 24px;
+    }
+    .hr-cta-a .icon {
+        width: 42px;
+    }
+    .hr-cta-a {
+        font-size: 16px;
+        gap: 15px;
+    }
+    .header-in {
+        padding: 18px 0;
+    }
+
+    .hero-section__inner {
+        padding: 80px 0;
+    }
+    .hero__content h5 {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+    .hero__content h3 {
+        font-size: 27px;
+        margin: 0 0 -5px;
+    }
+    .hero__content .h1 {
+        font-size: 48.3px;
+    }
+    .hero-form {
+        padding: 30px 32px;
+        margin-right: 0px;
+        width: 400px;
+    }
+    .hero-form__title h3 {
+        font-size: 18px;
+    }
+    .form-progress-nav .step {
+        font-size: 12px;
+        width: 34px;
+        height: 22px;
+    }
+    .form-progress-nav .step::after {
+        width: 40px;
+        right: -4px;
+    }
+    .form-progress-nav {
+        margin: 19px 0 0;
+        gap: 46px;
+    }
+    .label-x {
+        font-size: 14px;
+        margin-bottom: 9px;
+    }
+    .hero-form__title {
+        margin: 0 0 22px;
+    }
+    .x-gander__op .icon {
+        height: 50px;
+    }
+    .x-gander__op h4 {
+        font-size: 12px;
+        margin: 0 0 9px;
+    }
+    .input-x {
+        min-height: 40px;
+        padding: 11px 15px;
+        font-size: 12px;
+    }
+    .input-x.nice-select::after {
+        width: 12px;
+        height: 8px;
+        margin-top: -2px;
+    }
+    .input-x {
+        font-size: 12px;
+    }
+    .nice-select .list .option, .nice-select.open .list .option {
+        font-size: 12px;
+        padding: 9px 16px;
+        min-width: 50px;
+    }
+    .default-button {
+        min-height: 45px;
+        padding: 10px 25px;
+        font-size: 14px;
+        border-radius: 7px;
+    }
+    .hero-form__bt-row .default-button {
+        min-width: 140px;
+    }
+    .input-x.big {
+        height: 120px;
+    }
+    .x-agree-select__op h4 {
+        font-size: 12px;
+    }
+    .x-agree-select__op {
+        width: 94px;
+        height: 37px;
+        padding: 8px;
+    }
+    .hero-form__main {
+        min-height: 348px;
+    }
+    .hero-form__bt-row {
+        padding-top: 7px;
+    }
+
+
+    
+    .h2 {
+        font-size: 25px;
+    }
+    .h5 {
+        font-size: 11px;
+        margin: 0 0 8px;
+    }
+    .sec-title {
+        margin: 0 0 25px;
+    }
+    .procedure-area {
+        padding: 90px 0;
+    }
+    .procedure-card__icon svg {
+        transform: scale(0.7);
+    }
+    .procedure-card__icon {
+        height: 59px;
+        margin: 0 0 12px;
+    }
+    .procedure__wrapper {
+        grid-gap: 15px;
+    }
+    .procedure-card__tc h3 {
+        font-size: 16px;
+        margin: 0 0 7px;
+    }
+    .procedure-card__tc p {
+        font-size: 13px;
+    }
+    .pcl-icon {
+        --wd: 40px;
+    }
+    .procedure-card__bt {
+        margin: 20px 0 0;
+    }
+    .procedure-card {
+        padding: 30px 7px 7px;
+    }
+    .pc-fc-button .icon {
+        width: 28px;
+    }
+    .pc-fc-button {
+        font-size: 16px;
+        gap: 14px;
+        padding: 14px 12px;
+        border-radius: 10px;
+        min-height: 40px;
+    }
+
+    .road-section {
+        padding: 70px 0;
+    }
+    .road-card__tc h4 {
+        font-size: 14px;
+    }
+    .road-card__tc {
+        padding: 10px 10px 20px;
+    }
+    .road-card {
+        padding: 7px;
+        border-radius: 15px;
+    }
+
+
+    .welcome-section {
+        padding: 90px 0;
+    }
+    body {
+        font-size: 14px;
+    }
+    p {
+        margin-bottom: 12px;
+    }
+    .welcome__row {
+        gap: 30px;
+    }
+    .cont-blk .bottom-button {
+        margin: 10px 0 0;
+    }
+    .full-video-button .play {
+        width: 15px;
+    }
+    .full-video-button {
+        height: 48px;
+        width: 48px;
+    }
+    
+
+    .technique-section {
+        padding: 90px 0;
+    }
+    .technique-card__content h3 {
+        font-size: 24px;
+    }
+    .technique-card {
+        padding: 50px 16px;
+        min-height: 590px;
+    }
+
+
+    .rt-section {
+        padding: 90px 0;
+    }
+    .rt__result__title {
+        margin: 0 0 55px;
+    }
+    .rt__result-row {
+        margin-bottom: 70px;
+    }
+    .slider-arrow-1 .owl-nav button {
+        height: 45px;
+        width: 45px;
+        font-size: 16px !important;
+    }
+    .testimonial-slider__title {
+        margin: 0 0 35px;
+    }
+    .testimonial-slide__meta__time .clock {
+        width: 19px !important;
+    }
+    .rating ul li {
+        width: 19px;
+    }
+    .rating ul {
+        gap: 7px;
+    }
+    .testimonial-slide__meta__time {
+        margin: 0 0 15px;
+    }
+    .testimonial-slide__auth h3 {
+        font-size: 15px;
+        margin: 0 0 5px;
+    }
+    .testimonial-slide__auth p {
+        font-size: 10px;
+    }
+    .testimonial-slide__tc p {
+        font-size: 11px;
+    }
+    .testimonial-slide {
+        padding: 30px 18px;
+    }
+    .testimonial-slide__meta {
+        margin: 0 0 20px;
+    }
+    .testimonial-slide__auth {
+        margin: 0 0 15px;
+    }
+    .testimonial-slider .owl-nav {
+        position: absolute;
+        left: -291px;
+        bottom: -25px;
+    }
+    .slider-arrow-1 .owl-nav button {
+        height: 37px;
+        width: 37px;
+        font-size: 16px !important;
+        border-radius: 7px !important;
+    }
+    .rt__testimonial__video__atc h3 {
+        font-size: 17px;
+        margin: 0 0 3px;
+        gap: 10px;
+    }
+    .rt__testimonial__video__atc p {
+        font-size: 11px;
+    }
+    .rt__testimonial__video__atc h3 .q-right {
+        width: 27px;
+    }
+    .rt__testimonial__video__atc {
+        padding: 12px 0 0;
+    }
+
+    .success-section {
+        padding: 90px 0;
+    }
+    .success-section__title {
+        margin: 0 0 50px;
+    }
+    .success-count h3 {
+        font-size: 33px;
+    }
+    .success-count h5 {
+        font-size: 13px;
+    }
+
+
+    .footer__logo {
+        width: 95px;
+    }
+    .f-menu li a {
+        font-size: 15px;
+    }
+    .f-menu {
+        gap: 50px;
+    }
+    .footer__top {
+        padding: 30px 0;
+    }
+    .copy-right {
+        font-size: 15px;
+    }
+    .sqr-a {
+        gap: 11px;
+        font-size: 17px;
+        min-height: 53px;
+        padding: 5px 22px;
+    }
+    .sqr-a .icon {
+        width: 25px;
+    }
+    .footer__bottom {
+        padding: 22px 0;
+        padding-right: 150px;
+    }
+
+
+    .welcome__row__right p {
+        font-size: 16px;
+    }
+
+    .rt-result-slider .owl-nav {
+        --off: -60px;
+    }
+
+    .f-c-btn {
+        font-size: 15px;
+    }
+
+
+    .rt-result-slide__column__tc h4 {
+        font-size: 16px;
+    }
+    .rt-result-slide {
+        padding: 7px;
+    }
+    .rt-result-slide__column__tc {
+        padding: 8px 0 16px;
+    }
+
+}   
+
+
+@media (max-width: 1399px) {
+    
+}
+
+
+@media (max-width: 1199px) {
+    .procedure__wrapper {
+        grid-template-columns: repeat(4,1fr);
+    }
+    .welcome__row {
+        gap: 40px;
+        flex-direction: column;
+    }
+    .welcome__row__left {
+        width: 100%;
+    }
+    .welcome__row__right {
+        width: 100%;
+    }
+
+
+    .rt__testimonial-row {
+        flex-direction: column;
+    }
+    .rt__testimonial-slider-outer {
+        width: 100%;
+    }
+    .rt__testimonial__video {
+        width: 100%;
+    }
+    .success-count-wrapper {
+        grid-template-columns: repeat(2,1fr);
+    }
+    .success-count:nth-child(2n):after {
+        display: none;
+    }
+
+    .rt__testimonial-slider-outer {
+        order: -1;
+    }
+    .rt__testimonial-row {
+        max-width: 297px;
+        margin: 0 auto;
+    }
+    .testimonial-slide__tc p {
+        letter-spacing: 0px;
+    }
+    .testimonial-slider .owl-nav {
+        left: 0px;
+        bottom: -357px;
+    }
+    .rt__testimonial__bottom {
+        margin: 80px 0 0;
+    }
+    .bt-label-x {
+        margin: 10px 0 0;
+        font-size: 11px;
+    }
+    .x-gander__op .bg {
+        border-radius: 15px;
+    }
+    .x-gander {
+        grid-gap: 15px;
+    }
+    .road-card__wrapper {
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+
+
+@media (max-width: 991px) {
+    .hero-section__inner {
+        flex-wrap: wrap;
+        gap: 55px;
+    }
+    .hero-form {
+        margin: 0 auto;
+    }
+    .procedure__wrapper {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .technique-cards-wrapper {
+        grid-template-columns: repeat(1,1fr);
+    }
+    .technique-card {
+        min-height: 400px;
+    }
+
+    .footer__top {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .footer__bottom {
+        flex-direction: column;
+        padding: 22px 0 30px;
+        gap: 20px; 
+        text-align: center;
+    }
+    .f-menu {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .float-buttons .sqr-a .txt {
+        
+    }
+    .float-buttons {
+        bottom: 20px;
+        --hor: 15px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .cookie-popup__content h4 {
+        font-size: 12px;
+    }
+    .cookie-popup {
+        padding: 25px 0;
+    }
+    .cookie-popup__buttons .default-button {
+        min-width: 116px;
+        min-height: 29px;
+        height: 29px;
+        padding: 10px 10px;
+        font-size: 10px;
+        font-weight: 500;
+    }
+    .cookie-popup__buttons {
+        gap: 25px;
+        margin-top: 11px;
+    }
+
+    .container {
+        padding: 0 5%;
+    }
+
+    
+    
+
+    .header__logo {
+        width: 70px;
+    }
+    .language-option .icon {
+        width: 16px;
+    }
+    .language-option > a {
+        font-size: 13px;
+        gap: 11px;
+        min-height: 39px;
+        padding: 4px 17px;
+        border-radius: 7px;
+    }
+    .hero-section {
+        background: url('../images/hero-mobile-bg.png') no-repeat center center/cover;
+    }
+    .hero__content h5 {
+        font-size: 11px;
+        margin: 0 0 5px;
+    }
+    .hero__content h3 {
+        font-size: 19px;
+        margin: 0 0 12px;
+        line-height: 1.6;
+    }
+    .hero__content .h1 {
+        font-size: 32px;
+        margin: 0 0 15px;
+    }
+    .hero-form__title h3 {
+        font-size: 15px;
+    }
+    .label-x {
+        font-size: 12px;
+    }
+    .x-gander__op h4 {
+        font-size: 10px;
+    }
+    .hero-form__title {
+        margin: 0 0 25px;
+    }
+    .hero-form__bt-row .default-button {
+        min-width: 135px;
+    }
+    .default-button {
+        min-height: 39px;
+        padding: 7px 25px;
+        font-size: 12px;
+    }
+    .x-agree-select__op h4 {
+        font-size: 10px;
+    }
+    .x-agree-select {
+        gap: 13px;
+    }
+    .single-input-x {
+        margin: 0 0 10px;
+    }
+    .hero-form__main {
+        min-height: 318px;
+    }
+    .input-x-outer .r-icon {
+        width: 14px;
+        --hor: 15px;
+    }
+    .input-x {
+        min-height: 43px;
+    }
+    .hero-section__inner {
+        padding: 90px 0 40px;
+    }
+
+    .procedure__wrapper {
+        width: 210px;
+        margin: 0 auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .pc-fc-button {
+        font-size: 10px;
+        gap: 11px;
+        padding: 9px 12px;
+        border-radius: 10px;
+        min-height: 46px;
+    }
+    .pc-fc-button .icon {
+        width: 22px;
+    }
+    .h5 {
+        font-size: 10px;
+    }
+    .h2 {
+        font-size: 20px;
+    }
+    .procedure__wrapper {
+        width: 247px;
+        margin: 0 auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .procedure-card {
+        padding: 30px 9px 9px;
+    }
+    .procedure-area {
+        padding: 70px 0;
+    }
+    .road-card__wrapper {
+        grid-template-columns: repeat(1,1fr);
+        width: 293px;
+        margin: 0 auto;
+        grid-gap: 17px;
+    }
+    .road-card__tc h4 {
+        font-size: 18px;
+    }
+    .road-card__tc {
+        padding: 20px 25px 28px;
+    }
+    .sec-title {
+        margin: 0 0 30px;
+    }
+    .road-section {
+        padding: 50px 0;
+    }
+
+    .road-mobile-bottom {
+        display: flex;
+        justify-content: center;
+        margin: 38px 0 0;
+    }
+    .default-button {
+        min-height: 39px;
+        padding: 7px 17px;
+        font-size: 12px;
+        gap: 10px;
+    }
+    .welcome__row__right p {
+        font-size: 12px;
+    }
+    .rt-result-slider__outer {
+        padding: 0 0px;
+    }
+    .rt-result-slider .owl-nav {
+        --off: -13px;
+    }
+    .rt-section {
+        padding: 50px 0;
+    }
+
+    .welcome-section {
+        padding: 65px 0;
+    }
+    .full-video-button {
+        height: 30px;
+        width: 30px;
+    }
+    .full-video-button .play {
+        width: 10px;
+    }
+    .cont-blk__title {
+        margin: 0 0 25px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .cont-blk .bottom-button {
+        margin: 8px 0 0;
+    }
+
+    .technique-section {
+        padding: 65px 0;
+    }
+    .technique-card__content h3 {
+        font-size: 21px;
+    }
+    .technique-card {
+        min-height: 351px;
+        padding: 40px 15px;
+    }
+
+
+    .rt-result-slider .owl-item.center {
+        transform: scale(1);
+    }
+    .rt__result__title .right-button {
+        display: none;
+    }
+    .rt__result__title {
+        margin: 0 0 35px;
+    }
+    .rt-section {
+        padding: 65px 0;
+    }
+    .slider-arrow-1 .owl-nav button {
+        height: 34px;
+        width: 34px;
+        font-size: 10px !important;
+    }
+    .rt-result-slider .owl-nav {
+        bottom: 28px;
+    }
+    .rt-result-slider {
+        padding: 0;
+    }
+    .rt__result__mobile__bottom {
+        display: flex;
+        justify-content: center;
+        margin: 40px 0 0;
+    }
+    .rt__result__mobile__bottom .default-button {
+        min-width: 215px;
+    }
+
+    .rt__result-row {
+        margin-bottom: 45px;
+    }
+    .testimonial-slide > * {
+        max-width: 187px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .success-count-wrapper {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 0;
+    }
+    .success-section__title .right-button {
+        display: none;
+    }
+    .success-count {
+        padding: 28px 0;
+    }
+    .success-count:nth-child(n):after {
+        height: 1px;
+        width: 158px;
+        top: 100%;
+        right: 50%;
+        transform: translate(50%,50%);
+        display: block;
+    }
+    .success-count:last-child::after {
+        display: none;
+    }
+    .success-section__title .cont-blk {
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+    .success-section__title {
+        margin: 0 0 22px;
+    }
+    .success-section {
+        padding: 65px 0;
+    }
+    .success-section__mobile-bottom {
+        display: flex;
+        justify-content: center;
+        margin: 17px 0 0;
+    }
+    .success-section__mobile-bottom .default-button {
+        min-width: 184px;
+    }
+
+    
+    .f-menu li a {
+        font-size: 12px;
+    }
+    .copy-right {
+        font-size: 12px;
+    }
+    .sqr-a {
+        gap: 10px;
+        font-size: 12px;
+    }
+    .sqr-a .icon {
+        width: 40px;
+    }
+
+    .success-section {
+        padding: 65px 0 40px;
+    }
+
+    .sqr-a .icon {
+        width: 20px;
+    }
+    .sqr-a {
+        gap: 9px;
+        font-size: 11px;
+        min-height: 40px;
+        padding: 5px 15px;
+        border-radius: 7px;
+    }
+}
+
+
+@media (max-width: 575px) {
+ 
+}
+
+
+@media (max-width: 370px) {
+    .hero__content h3 {
+        font-size: 19px;
+        margin: 0px 0 -2px;
+    }
+    .hero-section__inner {
+        padding: 70px 0 50px;
+    }
+    .hero-section__inner {
+        gap: 40px;
+    }
+    .hero-form {
+        padding: 30px 25px;
+    }
+    
+}
