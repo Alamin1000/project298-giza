@@ -67,6 +67,19 @@
     },
     rtl: $("body").hasClass("rtl-page"),
   });
+  $(".rt__testimonial__video__slider-active").owlCarousel({
+    loop: true,
+    margin: 11,
+    items: 1,
+    responsiveClass: true,
+    nav: true,
+    dots: false,
+    navText: [
+      '<i class="fal fa-long-arrow-left"></i>',
+      '<i class="fal fa-long-arrow-right"></i>',
+    ],
+    rtl: $("body").hasClass("rtl-page"),
+  });
 
   //magnificPopup
   $(".popup-img").magnificPopup({

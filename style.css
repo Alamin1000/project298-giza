@@ -329,6 +329,9 @@ p:last-child{
 .hero-section {
   background: url('images/hero-bg.png') no-repeat center center/cover;
 }
+.rtl-page .hero-section {
+  background: url('images/hero-bg-rtl.png') no-repeat center center/cover;
+}
 .hero-section__inner {
 	padding: 140px 0;
 	display: flex;
@@ -360,12 +363,17 @@ p:last-child{
 }
 
 .hero-form {
+  --margin-end: -52px;
   padding: 40px 52px;
-  margin-right: -52px;
+  margin-right: var(--margin-end);
   width: 570px;
   background: rgba(247, 247, 247, 0.9);
   border-radius: 25px;
   color: var(--theme__color2);
+}
+.rtl-page .hero-form {
+  margin-right: 0;
+  margin-left: var(--margin-end);
 }
 .hero-form__inner {
 
@@ -666,8 +674,9 @@ body.rtl-page .form-progress-nav .step:first-child:after {
   transition: 0.3s;
   background: var(--theme__color1) !important;
 }
-.rtl-page .slider-arrow-1 .owl-nav button i {
-  transform: rotateY(180deg);
+.rtl-page .slider-arrow-1 .owl-nav {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 .slider-arrow-1 .owl-nav button:hover {
   background: var(--theme__color2) !important;
@@ -894,6 +903,7 @@ body.rtl-page .form-progress-nav .step:first-child:after {
 }
 .full-video-button .play {
   transform: translate(7%,0);
+  width: 20px !important;
 }
 .welcome__row__right {
   width: 50%;
@@ -1002,13 +1012,14 @@ body.rtl-page .form-progress-nav .step:first-child:after {
   width: 100%;
 }
 .testimonial-slider .owl-nav {
+  --start: -402px;
 	position: absolute;
-	left: -402px;
+	left: var(--start);
 	bottom: -25px;
 }
 .rtl-page .testimonial-slider .owl-nav {
-  left: 0;
-  right: unset;
+  left: unset;
+  right: var(--start);
 }
 .testimonial-slide {
   padding: 48px 28px;
@@ -1142,7 +1153,7 @@ body.rtl-page .form-progress-nav .step:first-child:after {
   transition: 0.3s;
 }
 .f-menu li a:hover {
-  color: var(--theme__color2);
+  color: #fff;
 }
 .f-menu li a .strong {
   color: #fff;
@@ -1150,12 +1161,18 @@ body.rtl-page .form-progress-nav .step:first-child:after {
 }
 
 .footer__bottom {
-  padding: 38px 0;
-  padding-right: 200px;
+  --padding-end: 200px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+  padding-right: var(--padding-end);
   border-top: 1px solid #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.rtl-page .footer__bottom {
+  padding-right: 0;
+  padding-left: var(--padding-end);
 }
 .copy-right {
   font-size: 20px;
